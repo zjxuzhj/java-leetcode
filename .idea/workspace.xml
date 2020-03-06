@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89e16234-0414-4207-aa91-013c96c26e7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="89e16234-0414-4207-aa91-013c96c26e7f" name="Default Changelist" comment="实现获得子串的初始位置方法&#10;实现一：作弊用java的indexOf方法&#10;实现二：使用双指针法">
+      <change afterPath="$PROJECT_DIR$/src/implementStrstr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -31,29 +29,71 @@
     </option>
   </component>
   <component name="ProjectId" id="1YCOjudFcmom5o8JFNs6sLiCNT2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager">
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo" />
+  <component name="RunManager" selected="Application.implementStrstr">
+    <configuration name="implementStrstr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementStrstr" />
       <module name="java-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="longestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="longestCommonPrefix" />
+      <module name="java-leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="removeDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="removeDuplicates" />
+      <module name="java-leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="removeElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="removeElement" />
+      <module name="java-leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="validParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="validParentheses" />
+      <module name="java-leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.longestCommonPrefix" />
+      <item itemvalue="Application.validParentheses" />
+      <item itemvalue="Application.removeDuplicates" />
+      <item itemvalue="Application.removeElement" />
+      <item itemvalue="Application.implementStrstr" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.demo" />
+        <item itemvalue="Application.implementStrstr" />
+        <item itemvalue="Application.removeElement" />
+        <item itemvalue="Application.removeDuplicates" />
+        <item itemvalue="Application.validParentheses" />
+        <item itemvalue="Application.longestCommonPrefix" />
       </list>
     </recent_temporary>
   </component>
@@ -80,6 +120,13 @@
       <option name="presentableId" value="Default" />
       <updated>1582443248223</updated>
       <workItem from="1582443250671" duration="1867000" />
+      <workItem from="1582771220081" duration="46000" />
+      <workItem from="1582771279532" duration="8431000" />
+      <workItem from="1583118172963" duration="7085000" />
+      <workItem from="1583205664916" duration="12640000" />
+      <workItem from="1583293074645" duration="3493000" />
+      <workItem from="1583301613022" duration="5217000" />
+      <workItem from="1583376781925" duration="13892000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1582557088009</created>
@@ -88,50 +135,158 @@
       <option name="project" value="LOCAL" />
       <updated>1582557088009</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="提交工程编译文件">
+      <created>1582771610225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582771610225</updated>
+    </task>
+    <task id="LOCAL-00003" summary="提交有效的括号算法，使用栈进出 或者 正则替换所有成对括号">
+      <created>1583128317166</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583128317167</updated>
+    </task>
+    <task id="LOCAL-00004" summary="使用双指针法完成删除排序数组中的去重功能。">
+      <created>1583226701975</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583226701975</updated>
+    </task>
+    <task id="LOCAL-00005" summary="双指针法解决数组删除元素问题">
+      <created>1583310899068</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583310899068</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="提交工程编译文件" />
+    <MESSAGE value="提交有效的括号算法，使用栈进出 或者 正则替换所有成对括号" />
+    <MESSAGE value="使用双指针法完成删除排序数组中的去重功能。" />
+    <MESSAGE value="双指针法解决数组删除元素问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="双指针法解决数组删除元素问题" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="341" y="64" key="CommitChangelistDialog2" timestamp="1582557087881">
-      <screen x="55" y="23" width="1385" height="877" />
+    <state x="601" y="281" key="#Customize_Data_Views" timestamp="1582784323875">
+      <screen x="0" y="0" width="1851" height="1080" />
     </state>
+    <state x="601" y="281" key="#Customize_Data_Views/0.0.1851.1080@0.0.1851.1080" timestamp="1582784323875" />
+    <state x="379" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582771436755">
+      <screen x="0" y="0" width="1851" height="1080" />
+    </state>
+    <state x="379" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1851.1080@0.0.1851.1080" timestamp="1582771436755" />
+    <state x="705" y="245" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1582771428094">
+      <screen x="0" y="0" width="1851" height="1080" />
+    </state>
+    <state x="705" y="245" key="#com.intellij.ide.macro.MacrosDialog/0.0.1851.1080@0.0.1851.1080" timestamp="1582771428094" />
+    <state x="889" y="158" width="803" height="714" key="CommitChangelistDialog2" timestamp="1583463323078">
+      <screen x="0" y="0" width="1851" height="1080" />
+    </state>
+    <state x="889" y="158" width="803" height="714" key="CommitChangelistDialog2/0.0.1851.1080@0.0.1851.1080" timestamp="1583463323078" />
     <state x="341" y="64" key="CommitChangelistDialog2/1440.23.1920.1057/55.23.1385.877@55.23.1385.877" timestamp="1582557087881" />
+    <state width="415" height="466" key="DebuggerActiveHint" timestamp="1583224188571">
+      <screen x="0" y="0" width="1851" height="1080" />
+    </state>
+    <state width="415" height="466" key="DebuggerActiveHint/0.0.1851.1080@0.0.1851.1080" timestamp="1583224188571" />
     <state x="610" y="362" width="278" height="270" key="Github.ShareDialog" timestamp="1582556266935">
       <screen x="55" y="23" width="1385" height="877" />
     </state>
     <state x="608" y="362" width="278" height="270" key="Github.ShareDialog/1440.23.1920.1057/52.23.1388.877@52.23.1388.877" timestamp="1582443647326" />
     <state x="610" y="362" width="278" height="270" key="Github.ShareDialog/1440.23.1920.1057/55.23.1385.877@55.23.1385.877" timestamp="1582556266935" />
-    <state width="1344" height="230" key="GridCell.Tab.0.bottom" timestamp="1582556829107">
-      <screen x="55" y="23" width="1385" height="877" />
+    <state width="1808" height="295" key="GridCell.Tab.0.bottom" timestamp="1583462693628">
+      <screen x="0" y="0" width="1851" height="1080" />
     </state>
+    <state width="1808" height="295" key="GridCell.Tab.0.bottom/0.0.1851.1080@0.0.1851.1080" timestamp="1583462693628" />
     <state width="1344" height="230" key="GridCell.Tab.0.bottom/1440.23.1920.1057/55.23.1385.877@55.23.1385.877" timestamp="1582556829107" />
-    <state width="1344" height="230" key="GridCell.Tab.0.center" timestamp="1582556829106">
-      <screen x="55" y="23" width="1385" height="877" />
+    <state width="1808" height="295" key="GridCell.Tab.0.center" timestamp="1583462693628">
+      <screen x="0" y="0" width="1851" height="1080" />
     </state>
+    <state width="1808" height="295" key="GridCell.Tab.0.center/0.0.1851.1080@0.0.1851.1080" timestamp="1583462693628" />
     <state width="1344" height="230" key="GridCell.Tab.0.center/1440.23.1920.1057/55.23.1385.877@55.23.1385.877" timestamp="1582556829106" />
-    <state width="1344" height="230" key="GridCell.Tab.0.left" timestamp="1582556829105">
-      <screen x="55" y="23" width="1385" height="877" />
+    <state width="1808" height="295" key="GridCell.Tab.0.left" timestamp="1583462693628">
+      <screen x="0" y="0" width="1851" height="1080" />
     </state>
+    <state width="1808" height="295" key="GridCell.Tab.0.left/0.0.1851.1080@0.0.1851.1080" timestamp="1583462693628" />
     <state width="1344" height="230" key="GridCell.Tab.0.left/1440.23.1920.1057/55.23.1385.877@55.23.1385.877" timestamp="1582556829105" />
-    <state width="1344" height="230" key="GridCell.Tab.0.right" timestamp="1582556829106">
-      <screen x="55" y="23" width="1385" height="877" />
+    <state width="1808" height="295" key="GridCell.Tab.0.right" timestamp="1583462693628">
+      <screen x="0" y="0" width="1851" height="1080" />
     </state>
+    <state width="1808" height="295" key="GridCell.Tab.0.right/0.0.1851.1080@0.0.1851.1080" timestamp="1583462693628" />
     <state width="1344" height="230" key="GridCell.Tab.0.right/1440.23.1920.1057/55.23.1385.877@55.23.1385.877" timestamp="1582556829106" />
+    <state width="1808" height="364" key="GridCell.Tab.1.bottom" timestamp="1583400889476">
+      <screen x="0" y="0" width="1851" height="1080" />
+    </state>
+    <state width="1808" height="364" key="GridCell.Tab.1.bottom/0.0.1851.1080@0.0.1851.1080" timestamp="1583400889476" />
+    <state width="1808" height="364" key="GridCell.Tab.1.center" timestamp="1583400889476">
+      <screen x="0" y="0" width="1851" height="1080" />
+    </state>
+    <state width="1808" height="364" key="GridCell.Tab.1.center/0.0.1851.1080@0.0.1851.1080" timestamp="1583400889476" />
+    <state width="1808" height="364" key="GridCell.Tab.1.left" timestamp="1583400889476">
+      <screen x="0" y="0" width="1851" height="1080" />
+    </state>
+    <state width="1808" height="364" key="GridCell.Tab.1.left/0.0.1851.1080@0.0.1851.1080" timestamp="1583400889476" />
+    <state width="1808" height="364" key="GridCell.Tab.1.right" timestamp="1583400889476">
+      <screen x="0" y="0" width="1851" height="1080" />
+    </state>
+    <state width="1808" height="364" key="GridCell.Tab.1.right/0.0.1851.1080@0.0.1851.1080" timestamp="1583400889476" />
+    <state x="535" y="165" key="RollbackChangesDialog" timestamp="1582785525451">
+      <screen x="0" y="0" width="1851" height="1080" />
+    </state>
+    <state x="535" y="165" key="RollbackChangesDialog/0.0.1851.1080@0.0.1851.1080" timestamp="1582785525451" />
     <state x="259" y="100" key="SettingsEditor" timestamp="1582556758453">
       <screen x="55" y="23" width="1385" height="877" />
     </state>
     <state x="256" y="100" key="SettingsEditor/1440.23.1920.1057/52.23.1388.877@52.23.1388.877" timestamp="1582443633428" />
     <state x="259" y="100" key="SettingsEditor/1440.23.1920.1057/55.23.1385.877@55.23.1385.877" timestamp="1582556758453" />
-    <state x="347" y="201" key="Vcs.Push.Dialog.v2" timestamp="1582557089686">
-      <screen x="55" y="23" width="1385" height="877" />
+    <state x="390" y="219" key="Vcs.Push.Dialog.v2" timestamp="1583310917925">
+      <screen x="0" y="0" width="1851" height="1080" />
     </state>
+    <state x="390" y="219" key="Vcs.Push.Dialog.v2/0.0.1851.1080@0.0.1851.1080" timestamp="1583310917925" />
     <state x="347" y="201" key="Vcs.Push.Dialog.v2/1440.23.1920.1057/55.23.1385.877@55.23.1385.877" timestamp="1582557089686" />
+    <state x="367" y="151" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583398364726">
+      <screen x="0" y="0" width="1851" height="1080" />
+    </state>
+    <state x="367" y="151" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1851.1080@0.0.1851.1080" timestamp="1583398364726" />
+    <state x="718" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583226776862">
+      <screen x="0" y="0" width="1851" height="1080" />
+    </state>
+    <state x="718" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1851.1080@0.0.1851.1080" timestamp="1583226776862" />
+    <state x="532" y="245" width="786" height="590" key="find.popup" timestamp="1582771354324">
+      <screen x="0" y="0" width="1851" height="1080" />
+    </state>
+    <state x="532" y="245" width="786" height="590" key="find.popup/0.0.1851.1080@0.0.1851.1080" timestamp="1582771354324" />
+    <state x="300" y="241" key="new project wizard" timestamp="1582771464707">
+      <screen x="0" y="0" width="1851" height="1080" />
+    </state>
+    <state x="300" y="241" key="new project wizard/0.0.1851.1080@0.0.1851.1080" timestamp="1582771464707" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/removeElement.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="needles" />
+        <watch expression="haystacks" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
