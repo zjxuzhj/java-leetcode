@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89e16234-0414-4207-aa91-013c96c26e7f" name="Default Changelist" comment="实现获得子串的初始位置方法&#10;实现一：作弊用java的indexOf方法&#10;实现二：使用双指针法">
-      <change afterPath="$PROJECT_DIR$/src/implementStrstr.java" afterDir="false" />
+    <list default="true" id="89e16234-0414-4207-aa91-013c96c26e7f" name="Default Changelist" comment="实现获得子串的初始位置方法&#10;实现一：作弊用java的indexOf方法&#10;实现二：使用双指针法，一次遍历子串是否相同">
+      <change afterPath="$PROJECT_DIR$/src/searchInsertPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,16 +44,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.implementStrstr">
+  <component name="RunManager" selected="Application.searchInsertPosition">
     <configuration name="implementStrstr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="implementStrstr" />
-      <module name="java-leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="longestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="longestCommonPrefix" />
       <module name="java-leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,6 +66,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="searchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searchInsertPosition" />
+      <module name="java-leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="validParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="validParentheses" />
       <module name="java-leetcode" />
@@ -81,19 +81,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.longestCommonPrefix" />
       <item itemvalue="Application.validParentheses" />
       <item itemvalue="Application.removeDuplicates" />
       <item itemvalue="Application.removeElement" />
       <item itemvalue="Application.implementStrstr" />
+      <item itemvalue="Application.searchInsertPosition" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.searchInsertPosition" />
         <item itemvalue="Application.implementStrstr" />
         <item itemvalue="Application.removeElement" />
         <item itemvalue="Application.removeDuplicates" />
         <item itemvalue="Application.validParentheses" />
-        <item itemvalue="Application.longestCommonPrefix" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +126,7 @@
       <workItem from="1583205664916" duration="12640000" />
       <workItem from="1583293074645" duration="3493000" />
       <workItem from="1583301613022" duration="5217000" />
-      <workItem from="1583376781925" duration="13892000" />
+      <workItem from="1583376781925" duration="23592000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1582557088009</created>
@@ -163,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583310899068</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="实现获得子串的初始位置方法&#10;实现一：作弊用java的indexOf方法&#10;实现二：使用双指针法，一次遍历子串是否相同">
+      <created>1583463365312</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583463365313</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +183,8 @@
     <MESSAGE value="提交有效的括号算法，使用栈进出 或者 正则替换所有成对括号" />
     <MESSAGE value="使用双指针法完成删除排序数组中的去重功能。" />
     <MESSAGE value="双指针法解决数组删除元素问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="双指针法解决数组删除元素问题" />
+    <MESSAGE value="实现获得子串的初始位置方法&#10;实现一：作弊用java的indexOf方法&#10;实现二：使用双指针法，一次遍历子串是否相同" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现获得子串的初始位置方法&#10;实现一：作弊用java的indexOf方法&#10;实现二：使用双指针法，一次遍历子串是否相同" />
   </component>
   <component name="WindowStateProjectService">
     <state x="601" y="281" key="#Customize_Data_Views" timestamp="1582784323875">
@@ -191,10 +199,10 @@
       <screen x="0" y="0" width="1851" height="1080" />
     </state>
     <state x="705" y="245" key="#com.intellij.ide.macro.MacrosDialog/0.0.1851.1080@0.0.1851.1080" timestamp="1582771428094" />
-    <state x="889" y="158" width="803" height="714" key="CommitChangelistDialog2" timestamp="1583463323078">
+    <state x="889" y="158" width="803" height="714" key="CommitChangelistDialog2" timestamp="1583477543921">
       <screen x="0" y="0" width="1851" height="1080" />
     </state>
-    <state x="889" y="158" width="803" height="714" key="CommitChangelistDialog2/0.0.1851.1080@0.0.1851.1080" timestamp="1583463323078" />
+    <state x="889" y="158" width="803" height="714" key="CommitChangelistDialog2/0.0.1851.1080@0.0.1851.1080" timestamp="1583477543921" />
     <state x="341" y="64" key="CommitChangelistDialog2/1440.23.1920.1057/55.23.1385.877@55.23.1385.877" timestamp="1582557087881" />
     <state width="415" height="466" key="DebuggerActiveHint" timestamp="1583224188571">
       <screen x="0" y="0" width="1851" height="1080" />
@@ -205,42 +213,42 @@
     </state>
     <state x="608" y="362" width="278" height="270" key="Github.ShareDialog/1440.23.1920.1057/52.23.1388.877@52.23.1388.877" timestamp="1582443647326" />
     <state x="610" y="362" width="278" height="270" key="Github.ShareDialog/1440.23.1920.1057/55.23.1385.877@55.23.1385.877" timestamp="1582556266935" />
-    <state width="1808" height="295" key="GridCell.Tab.0.bottom" timestamp="1583462693628">
+    <state width="1808" height="295" key="GridCell.Tab.0.bottom" timestamp="1583477485616">
       <screen x="0" y="0" width="1851" height="1080" />
     </state>
-    <state width="1808" height="295" key="GridCell.Tab.0.bottom/0.0.1851.1080@0.0.1851.1080" timestamp="1583462693628" />
+    <state width="1808" height="295" key="GridCell.Tab.0.bottom/0.0.1851.1080@0.0.1851.1080" timestamp="1583477485616" />
     <state width="1344" height="230" key="GridCell.Tab.0.bottom/1440.23.1920.1057/55.23.1385.877@55.23.1385.877" timestamp="1582556829107" />
-    <state width="1808" height="295" key="GridCell.Tab.0.center" timestamp="1583462693628">
+    <state width="1808" height="295" key="GridCell.Tab.0.center" timestamp="1583477485616">
       <screen x="0" y="0" width="1851" height="1080" />
     </state>
-    <state width="1808" height="295" key="GridCell.Tab.0.center/0.0.1851.1080@0.0.1851.1080" timestamp="1583462693628" />
+    <state width="1808" height="295" key="GridCell.Tab.0.center/0.0.1851.1080@0.0.1851.1080" timestamp="1583477485616" />
     <state width="1344" height="230" key="GridCell.Tab.0.center/1440.23.1920.1057/55.23.1385.877@55.23.1385.877" timestamp="1582556829106" />
-    <state width="1808" height="295" key="GridCell.Tab.0.left" timestamp="1583462693628">
+    <state width="1808" height="295" key="GridCell.Tab.0.left" timestamp="1583477485616">
       <screen x="0" y="0" width="1851" height="1080" />
     </state>
-    <state width="1808" height="295" key="GridCell.Tab.0.left/0.0.1851.1080@0.0.1851.1080" timestamp="1583462693628" />
+    <state width="1808" height="295" key="GridCell.Tab.0.left/0.0.1851.1080@0.0.1851.1080" timestamp="1583477485616" />
     <state width="1344" height="230" key="GridCell.Tab.0.left/1440.23.1920.1057/55.23.1385.877@55.23.1385.877" timestamp="1582556829105" />
-    <state width="1808" height="295" key="GridCell.Tab.0.right" timestamp="1583462693628">
+    <state width="1808" height="295" key="GridCell.Tab.0.right" timestamp="1583477485616">
       <screen x="0" y="0" width="1851" height="1080" />
     </state>
-    <state width="1808" height="295" key="GridCell.Tab.0.right/0.0.1851.1080@0.0.1851.1080" timestamp="1583462693628" />
+    <state width="1808" height="295" key="GridCell.Tab.0.right/0.0.1851.1080@0.0.1851.1080" timestamp="1583477485616" />
     <state width="1344" height="230" key="GridCell.Tab.0.right/1440.23.1920.1057/55.23.1385.877@55.23.1385.877" timestamp="1582556829106" />
-    <state width="1808" height="364" key="GridCell.Tab.1.bottom" timestamp="1583400889476">
+    <state width="1808" height="364" key="GridCell.Tab.1.bottom" timestamp="1583467457994">
       <screen x="0" y="0" width="1851" height="1080" />
     </state>
-    <state width="1808" height="364" key="GridCell.Tab.1.bottom/0.0.1851.1080@0.0.1851.1080" timestamp="1583400889476" />
-    <state width="1808" height="364" key="GridCell.Tab.1.center" timestamp="1583400889476">
+    <state width="1808" height="364" key="GridCell.Tab.1.bottom/0.0.1851.1080@0.0.1851.1080" timestamp="1583467457994" />
+    <state width="1808" height="364" key="GridCell.Tab.1.center" timestamp="1583467457994">
       <screen x="0" y="0" width="1851" height="1080" />
     </state>
-    <state width="1808" height="364" key="GridCell.Tab.1.center/0.0.1851.1080@0.0.1851.1080" timestamp="1583400889476" />
-    <state width="1808" height="364" key="GridCell.Tab.1.left" timestamp="1583400889476">
+    <state width="1808" height="364" key="GridCell.Tab.1.center/0.0.1851.1080@0.0.1851.1080" timestamp="1583467457994" />
+    <state width="1808" height="364" key="GridCell.Tab.1.left" timestamp="1583467457994">
       <screen x="0" y="0" width="1851" height="1080" />
     </state>
-    <state width="1808" height="364" key="GridCell.Tab.1.left/0.0.1851.1080@0.0.1851.1080" timestamp="1583400889476" />
-    <state width="1808" height="364" key="GridCell.Tab.1.right" timestamp="1583400889476">
+    <state width="1808" height="364" key="GridCell.Tab.1.left/0.0.1851.1080@0.0.1851.1080" timestamp="1583467457994" />
+    <state width="1808" height="364" key="GridCell.Tab.1.right" timestamp="1583467457994">
       <screen x="0" y="0" width="1851" height="1080" />
     </state>
-    <state width="1808" height="364" key="GridCell.Tab.1.right/0.0.1851.1080@0.0.1851.1080" timestamp="1583400889476" />
+    <state width="1808" height="364" key="GridCell.Tab.1.right/0.0.1851.1080@0.0.1851.1080" timestamp="1583467457994" />
     <state x="535" y="165" key="RollbackChangesDialog" timestamp="1582785525451">
       <screen x="0" y="0" width="1851" height="1080" />
     </state>
@@ -250,10 +258,10 @@
     </state>
     <state x="256" y="100" key="SettingsEditor/1440.23.1920.1057/52.23.1388.877@52.23.1388.877" timestamp="1582443633428" />
     <state x="259" y="100" key="SettingsEditor/1440.23.1920.1057/55.23.1385.877@55.23.1385.877" timestamp="1582556758453" />
-    <state x="390" y="219" key="Vcs.Push.Dialog.v2" timestamp="1583310917925">
+    <state x="390" y="219" key="Vcs.Push.Dialog.v2" timestamp="1583463367826">
       <screen x="0" y="0" width="1851" height="1080" />
     </state>
-    <state x="390" y="219" key="Vcs.Push.Dialog.v2/0.0.1851.1080@0.0.1851.1080" timestamp="1583310917925" />
+    <state x="390" y="219" key="Vcs.Push.Dialog.v2/0.0.1851.1080@0.0.1851.1080" timestamp="1583463367826" />
     <state x="347" y="201" key="Vcs.Push.Dialog.v2/1440.23.1920.1057/55.23.1385.877@55.23.1385.877" timestamp="1582557089686" />
     <state x="367" y="151" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583398364726">
       <screen x="0" y="0" width="1851" height="1080" />
@@ -263,10 +271,10 @@
       <screen x="0" y="0" width="1851" height="1080" />
     </state>
     <state x="718" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1851.1080@0.0.1851.1080" timestamp="1583226776862" />
-    <state x="532" y="245" width="786" height="590" key="find.popup" timestamp="1582771354324">
+    <state x="532" y="245" width="786" height="590" key="find.popup" timestamp="1583467110568">
       <screen x="0" y="0" width="1851" height="1080" />
     </state>
-    <state x="532" y="245" width="786" height="590" key="find.popup/0.0.1851.1080@0.0.1851.1080" timestamp="1582771354324" />
+    <state x="532" y="245" width="786" height="590" key="find.popup/0.0.1851.1080@0.0.1851.1080" timestamp="1583467110568" />
     <state x="300" y="241" key="new project wizard" timestamp="1582771464707">
       <screen x="0" y="0" width="1851" height="1080" />
     </state>
