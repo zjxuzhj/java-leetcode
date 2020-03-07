@@ -12,7 +12,7 @@
 
 <br/>
 
-### <font color="green">✔</font> 刷题&nbsp;&nbsp;&nbsp;&nbsp;(<font color="red">109</font>/1174)
+### <font color="green">✔</font> 刷题&nbsp;&nbsp;&nbsp;&nbsp;(<font color="red">6</font>/1174)
 
 \# | L# | 题目 | 时间 | tO | sO
  :-: | :-: | :-: |:-: |:-: |:-:
