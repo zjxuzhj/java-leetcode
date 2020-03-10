@@ -23,4 +23,5 @@
 5 | 28|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/implementStrstr.java"> 28. 实现 strStr()</a> | 2020年3月5日 | 41.1% | 0.99%
 6 | 35|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/searchInsertPosition.java"> 35. 搜索插入位置</a> | 2020年3月6日 | 100% | 14.99%
 7 | 53|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/maximumSubarray.java"> 53. 最大字序和</a> | 2020年3月9日 | 98.4% | 9.13%
-8 | 88|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/mergeSortedArray.java"> 88. 合并两个有序数组</a> | 2020年3月8日 | 29.93% | 5.01%
+8 | 70|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/climbingStairs.java"> 70. 爬楼梯</a> | 2020年3月10日 | 100% | 5.09%
+9 | 88|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/mergeSortedArray.java"> 88. 合并两个有序数组</a> | 2020年3月8日 | 29.93% | 5.01%
