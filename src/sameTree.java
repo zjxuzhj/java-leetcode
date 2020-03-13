@@ -1,37 +1,35 @@
-import javax.swing.tree.TreeNode;
-
 /**
  * 100. 相同的树
  * 给定两个二叉树，编写一个函数来检验它们是否相同。
- *
+ * <p>
  * 如果两个树在结构上相同，并且节点具有相同的值，则认为它们是相同的。
- *
+ * <p>
  * 示例 1:
- *
+ * <p>
  * 输入:       1         1
- *           / \       / \
- *          2   3     2   3
- *
- *         [1,2,3],   [1,2,3]
- *
+ * / \       / \
+ * 2   3     2   3
+ * <p>
+ * [1,2,3],   [1,2,3]
+ * <p>
  * 输出: true
  * 示例 2:
- *
+ * <p>
  * 输入:      1          1
- *           /           \
- *          2             2
- *
- *         [1,2],     [1,null,2]
- *
+ * /           \
+ * 2             2
+ * <p>
+ * [1,2],     [1,null,2]
+ * <p>
  * 输出: false
  * 示例 3:
- *
+ * <p>
  * 输入:       1         1
- *           / \       / \
- *          2   1     1   2
- *
- *         [1,2,1],   [1,1,2]
- *
+ * / \       / \
+ * 2   1     1   2
+ * <p>
+ * [1,2,1],   [1,1,2]
+ * <p>
  * 输出: false
  */
 public class sameTree {
@@ -52,11 +50,10 @@ public class sameTree {
 
     /**
      * 直觉法，使用先序遍历的递归形式
-     *
+     * <p>
      * 复杂度分析
      * 时间复杂度 : O(N)，其中 N 是树的结点数，因为每个结点都访问一次。
      * 空间复杂度 : 最优情况（完全平衡二叉树）时为 O(log(N))，最坏情况下（完全不平衡二叉树）时为 O(N)，用于维护递归栈。
-     *
      */
     public static boolean isSameTreeNormal(TreeNode p, TreeNode q) {
         if (p == null && q == null) return true;
@@ -114,17 +111,7 @@ public class sameTree {
         q.left = qLeft;
 //        q.left = null;
 //        q.right = qRight;
-        q.right=null;
-        System.out.println(isSameTreeNormal(p,q));
-    }
-
-    public static class TreeNode {
-        int val;
-        public TreeNode left;
-        public TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
+        q.right = null;
+        System.out.println(isSameTreeNormal(p, q));
     }
 }
