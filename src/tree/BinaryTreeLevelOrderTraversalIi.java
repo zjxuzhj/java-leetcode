@@ -1,3 +1,5 @@
+package tree;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
@@ -22,7 +24,7 @@ import java.util.List;
  * [3]
  * ]
  */
-public class binaryTreeLevelOrderTraversalIi {
+public class BinaryTreeLevelOrderTraversalIi {
     /**
      * BFS层次遍历
      * 执行用时 : 1 ms, 在所有 Java 提交中击败了 99.75% 的用户内存消耗 : 39.6 MB , 在所有 Java 提交中击败了 5.03% 的用户

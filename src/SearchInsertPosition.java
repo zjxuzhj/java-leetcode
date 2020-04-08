@@ -21,7 +21,7 @@
  * 输入: [1,3,5,6], 0
  * 输出: 0
  */
-public class searchInsertPosition {
+public class SearchInsertPosition {
     public static void main(String[] args) {
         int nums[] = {1, 3, 5, 6};
         System.out.println(searchInsertNorMal(nums, 7));

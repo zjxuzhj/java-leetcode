@@ -33,7 +33,7 @@ import java.util.Stack;
  * <p>
  */
 
-public class validParentheses {
+public class ValidParentheses {
 
     public static void main(String[] args) {
         System.out.println(isValidStack("{[]}"));

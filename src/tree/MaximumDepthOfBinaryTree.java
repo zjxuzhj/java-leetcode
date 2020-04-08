@@ -1,3 +1,5 @@
+package tree;
+
 import java.util.LinkedList;
 
 /**
@@ -18,7 +20,7 @@ import java.util.LinkedList;
  * 15   7
  * 返回它的最大深度 3 。
  */
-public class maximumDepthOfBinaryTree {
+public class MaximumDepthOfBinaryTree {
 
     /**
      * BFS:层次遍历思想  通过迭代实现二叉树最大深度

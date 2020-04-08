@@ -1,3 +1,5 @@
+package tree;
+
 /**
  * 108. 将有序数组转换为二叉搜索树
  * 将一个按照升序排列的有序数组，转换为一棵高度平衡二叉搜索树。
@@ -28,7 +30,7 @@
  * 按照高度顺序，从上往下逐层遍历节点。
  * 先遍历上层节点再遍历下层节点。
  */
-public class convertSortedArrayToBinarySearchTree {
+public class ConvertSortedArrayToBinarySearchTree {
 
     private static int[] nums;
 
@@ -44,7 +46,7 @@ public class convertSortedArrayToBinarySearchTree {
 
      */
     public static TreeNode sortedArrayToBST(int[] nums) {
-        convertSortedArrayToBinarySearchTree.nums = nums;
+        ConvertSortedArrayToBinarySearchTree.nums = nums;
         return helper(0, nums.length - 1);
     }
 

@@ -22,7 +22,7 @@
  * 2.  1 阶 + 2 阶
  * 3.  2 阶 + 1 阶
  */
-public class climbingStairs {
+public class ClimbingStairs {
     public static void main(String[] args) {
 //        System.out.println(climbStairs(0, 5));
         System.out.println(climbStairsBP(5));

@@ -11,7 +11,7 @@
  * 输入: 1->1->2->3->3
  * 输出: 1->2->3
  */
-public class removeDuplicatesFromSortedList {
+public class RemoveDuplicatesFromSortedList {
 
     public static void main(String[] args) {
         ListNode head = new ListNode(1);

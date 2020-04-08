@@ -13,7 +13,7 @@ import java.util.Arrays;
  * <p>
  * 输出: [1,2,2,3,5,6]
  */
-public class mergeSortedArray {
+public class MergeSortedArray {
     public static void main(String[] args) {
         int nums1[] = {0};
         int nums2[] = {1};

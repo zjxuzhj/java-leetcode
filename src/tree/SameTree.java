@@ -1,4 +1,4 @@
-import java.util.LinkedList;
+package tree;
 
 /**
  * 100. 相同的树
@@ -34,7 +34,7 @@ import java.util.LinkedList;
  * <p>
  * 输出: false
  */
-public class sameTree {
+public class SameTree {
 
     /**
      * 二叉树套路框架

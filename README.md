@@ -16,21 +16,22 @@
 
 \# | L# | 题目 | 时间 | tO | sO
  :-: | :-: | :-: |:-: |:-: |:-:
-1 | 14|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/longestCommonPrefix.java"> 14. 最长公共前缀</a> | 2020年2月26日 | 81% | 63%
-2 | 20|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/validParentheses.java"> 20. 有效的括号</a> | 2020年3月2日 | 50.31% | 26.34%
-3 | 26|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/removeDuplicates.java"> 26. 删除排序数组中的重复项</a> | 2020年3月3日 | 99.87% | 10.99%
-4 | 27|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/removeElement.java"> 27. 移除元素</a> | 2020年3月4日 | 100% | 0.99%
-5 | 28|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/implementStrstr.java"> 28. 实现 strStr()</a> | 2020年3月5日 | 41.1% | 0.99%
-6 | 35|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/searchInsertPosition.java"> 35. 搜索插入位置</a> | 2020年3月6日 | 100% | 14.99%
-7 | 53|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/maximumSubarray.java"> 53. 最大字序和</a> | 2020年3月9日 | 98.4% | 9.13%
-8 | 70|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/climbingStairs.java"> 70. 爬楼梯</a> | 2020年3月10日 | 100% | 5.09%
-9 | 83|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/removeDuplicatesFromSortedList.java"> 83. 删除排序链表中的重复元素</a> | 2020年3月11日 | 94.21% | 5.14%
-10 | 88|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/mergeSortedArray.java"> 88. 合并两个有序数组</a> | 2020年3月8日 | 29.93% | 5.01%
-11 | 100|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/sameTree.java"> 100. 相同的树</a> | 2020年3月12日 | 100.00% | 5.09%
-12 | 101|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/symmetricTree.java"> 101. 对称二叉树</a> | 2020年3月17日 | 100.00% | 13.13%
-13 | 104|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/maximumDepthOfBinaryTree.java"> 104. 二叉树的最大深度</a> | 2020年3月18日 | 100.00% | 28.68%
-14 | 107|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/binaryTreeLevelOrderTraversalIi.java"> 107. 二叉树的层次遍历 II</a> | 2020年3月24日 | 99.75% | 5.03%
-15 | 108|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/convertSortedArrayToBinarySearchTree.java"> 108. 将有序数组转换为二叉搜索树</a> | 2020年3月24日 | 100.00% | 5.03%
-16 | 110|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/BalancedBinaryTree.java"> 110. 平衡二叉树</a> | 2020年3月26日 | 99.88% | 9.84%
-17 | 111|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/MinimumDepthOfBinaryTree.java"> 111. 二叉树的最小深度</a> | 2020年3月27日 | 100.00% | 34.15%
-18 | 111|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/InvertBinaryTree.java"> 226. 翻转二叉树</a> | 2020年4月7日 | 100.00% | 5.39%
+1 | 14|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/LongestCommonPrefix.java"> 14. 最长公共前缀</a> | 2020年2月26日 | 81% | 63%
+2 | 20|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/ValidParentheses.java"> 20. 有效的括号</a> | 2020年3月2日 | 50.31% | 26.34%
+3 | 26|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/RemoveDuplicates.java"> 26. 删除排序数组中的重复项</a> | 2020年3月3日 | 99.87% | 10.99%
+4 | 27|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/RemoveElement.java"> 27. 移除元素</a> | 2020年3月4日 | 100% | 0.99%
+5 | 28|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/ImplementStrstr.java"> 28. 实现 strStr()</a> | 2020年3月5日 | 41.1% | 0.99%
+6 | 35|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/SearchInsertPosition.java"> 35. 搜索插入位置</a> | 2020年3月6日 | 100% | 14.99%
+7 | 53|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/MaximumSubarray.java"> 53. 最大字序和</a> | 2020年3月9日 | 98.4% | 9.13%
+8 | 70|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/ClimbingStairs.java"> 70. 爬楼梯</a> | 2020年3月10日 | 100% | 5.09%
+9 | 83|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/RemoveDuplicatesFromSortedList.java"> 83. 删除排序链表中的重复元素</a> | 2020年3月11日 | 94.21% | 5.14%
+10 | 88|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/MergeSortedArray.java"> 88. 合并两个有序数组</a> | 2020年3月8日 | 29.93% | 5.01%
+11 | 100|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/SameTree.java"> 100. 相同的树</a> | 2020年3月12日 | 100.00% | 5.09%
+12 | 101|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/SymmetricTree.java"> 101. 对称二叉树</a> | 2020年3月17日 | 100.00% | 13.13%
+13 | 104|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/MaximumDepthOfBinaryTree.java"> 104. 二叉树的最大深度</a> | 2020年3月18日 | 100.00% | 28.68%
+14 | 107|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/BinaryTreeLevelOrderTraversalIi.java"> 107. 二叉树的层次遍历 II</a> | 2020年3月24日 | 99.75% | 5.03%
+15 | 108|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/ConvertSortedArrayToBinarySearchTree.java"> 108. 将有序数组转换为二叉搜索树</a> | 2020年3月24日 | 100.00% | 5.03%
+16 | 110|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/BalancedBinaryTree.java"> 110. 平衡二叉树</a> | 2020年3月26日 | 99.88% | 9.84%
+17 | 111|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/MinimumDepthOfBinaryTree.java"> 111. 二叉树的最小深度</a> | 2020年3月27日 | 100.00% | 34.15%
+18 | 226|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/InvertBinaryTree.java"> 226. 翻转二叉树</a> | 2020年4月7日 | 100.00% | 5.39%
+19 | 572|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/SubtreeOfAnotherTree.java"> 572. 另一个树的子树</a> | 2020年4月8日 | 95.56% | 62.63%

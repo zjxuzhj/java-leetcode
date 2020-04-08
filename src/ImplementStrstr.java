@@ -18,7 +18,7 @@
  * <p>
  * 对于本题而言，当 needle 是空字符串时我们应当返回 0 。这与C语言的 strstr() 以及 Java的 indexOf() 定义相符。
  */
-public class implementStrstr {
+public class ImplementStrstr {
     public static void main(String[] args) {
         String haystack = "mississippi", needle = "pi";
         System.out.println(strStrNormal(haystack, needle));

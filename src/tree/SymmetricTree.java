@@ -1,3 +1,5 @@
+package tree;
+
 import java.util.LinkedList;
 
 /**
@@ -22,7 +24,7 @@ import java.util.LinkedList;
  *
  * 如果你可以运用递归和迭代两种方法解决这个问题，会很加分。
  */
-public class symmetricTree {
+public class SymmetricTree {
 
     /**
      * 迭代
