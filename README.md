@@ -18,6 +18,7 @@
  :-: | :-: | :-: |:-: |:-: |:-:
 1 | 14|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/LongestCommonPrefix.java"> 14. 最长公共前缀</a> | 2020年2月26日 | 81% | 63%
 2 | 20|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/ValidParentheses.java"> 20. 有效的括号</a> | 2020年3月2日 | 50.31% | 26.34%
+22 | 21|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/list/MergeTwoSortedLists.java"> 21. 合并两个有序链表</a> | 2020年4月13日 | 73.59% | 65.09%
 3 | 26|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/RemoveDuplicates.java"> 26. 删除排序数组中的重复项</a> | 2020年3月3日 | 99.87% | 10.99%
 4 | 27|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/RemoveElement.java"> 27. 移除元素</a> | 2020年3月4日 | 100% | 0.99%
 5 | 28|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/ImplementStrstr.java"> 28. 实现 strStr()</a> | 2020年3月5日 | 41.1% | 0.99%
@@ -25,7 +26,7 @@
 7 | 53|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/MaximumSubarray.java"> 53. 最大字序和</a> | 2020年3月9日 | 98.4% | 9.13%
 21 | 58|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/LengthOfLastWord.java"> 58. 最后一个单词的长度</a> | 2020年4月10日 | 100.00% | 5.21%
 8 | 70|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/ClimbingStairs.java"> 70. 爬楼梯</a> | 2020年3月10日 | 100% | 5.09%
-9 | 83|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/RemoveDuplicatesFromSortedList.java"> 83. 删除排序链表中的重复元素</a> | 2020年3月11日 | 94.21% | 5.14%
+9 | 83|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/list/RemoveDuplicatesFromSortedList.java"> 83. 删除排序链表中的重复元素</a> | 2020年3月11日 | 94.21% | 5.14%
 10 | 88|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/MergeSortedArray.java"> 88. 合并两个有序数组</a> | 2020年3月8日 | 29.93% | 5.01%
 20 | 98|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/ValidateBinarySearchTree.java"> 98. 验证二叉搜索树</a> | 2020年4月9日 | 100.00% | 16.57%
 11 | 100|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/SameTree.java"> 100. 相同的树</a> | 2020年3月12日 | 100.00% | 5.09%

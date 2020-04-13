@@ -1,13 +1,15 @@
+package list;
+
 /**
  * 83. 删除排序链表中的重复元素
  * 给定一个排序链表，删除所有重复的元素，使得每个元素只出现一次。
- * <p>
+ *
  * 示例 1:
- * <p>
+ *
  * 输入: 1->1->2
  * 输出: 1->2
  * 示例 2:
- * <p>
+ *
  * 输入: 1->1->2->3->3
  * 输出: 1->2->3
  */
@@ -30,7 +32,7 @@ public class RemoveDuplicatesFromSortedList {
      * 复杂度分析
      * 时间复杂度：O(n)，因为列表中的每个结点都检查一次以确定它是否重复，所以总运行时间为 O(n)，其中 n 是列表中的结点数。
      * 空间复杂度：O(1)，没有使用额外的空间。
-     * <p>
+     *
      * 正确性
      * 我们可以通过定义循环不变式来证明此代码的正确性。循环不变式是在循环的每次迭代之前和之后为真的条件。在这种情况下，一个帮助我们证明正确性的循环不变式是这样的：
      * 列表中直到指针 current 的所有结点都不包含重复的元素。
@@ -80,19 +82,5 @@ public class RemoveDuplicatesFromSortedList {
             }
         }
         return head;
-    }
-
-    public static class ListNode {
-        ListNode next;
-        int val;
-
-        ListNode(int x) {
-            val = x;
-        }
-
-        @Override
-        public String toString() {
-            return next == null ? val + "" : (val + "->" + next);
-        }
     }
 }
