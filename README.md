@@ -36,6 +36,7 @@
 15 | 108|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/ConvertSortedArrayToBinarySearchTree.java"> 108. 将有序数组转换为二叉搜索树</a> | 2020年3月24日 | 100.00% | 5.03%
 16 | 110|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/BalancedBinaryTree.java"> 110. 平衡二叉树</a> | 2020年3月26日 | 99.88% | 9.84%
 17 | 111|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/MinimumDepthOfBinaryTree.java"> 111. 二叉树的最小深度</a> | 2020年3月27日 | 100.00% | 34.15%
+24 | 121|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/BestTimeToBuyAndSellStock.java"> 121. 买卖股票的最佳时机</a> | 2020年4月20日 | 99.06% | 5.32%
 23 | 141|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/list/LinkedListCycle.java"> 141. 环形链表</a> | 2020年4月14日 | 100.00% | 5.49%
 18 | 226|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/InvertBinaryTree.java"> 226. 翻转二叉树</a> | 2020年4月7日 | 100.00% | 5.39%
 19 | 572|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/SubtreeOfAnotherTree.java"> 572. 另一个树的子树</a> | 2020年4月8日 | 95.56% | 62.63%
