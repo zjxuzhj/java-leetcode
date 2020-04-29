@@ -42,5 +42,6 @@
 25 | 122|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/BestTimeToBuyAndSellStockII.java"> 122. 买卖股票的最佳时机 II</a> | 2020年4月22日 | 99.07% | 6.25%
 28 | 125|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/ValidPalindrome.java"> 125. 验证回文串</a> | 2020年4月28日 | 14.41% | 7.14%
 23 | 141|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/list/LinkedListCycle.java"> 141. 环形链表</a> | 2020年4月14日 | 100.00% | 5.49%
+29 | 167|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/TwoSumIiInputArrayIsSorted.java"> 167. 两数之和 II - 输入有序数组</a> | 2020年4月29日 | 97.86% | 6.67%
 18 | 226|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/InvertBinaryTree.java"> 226. 翻转二叉树</a> | 2020年4月7日 | 100.00% | 5.39%
 19 | 572|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/SubtreeOfAnotherTree.java"> 572. 另一个树的子树</a> | 2020年4月8日 | 95.56% | 62.63%
