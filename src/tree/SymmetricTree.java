@@ -35,11 +35,6 @@ public class SymmetricTree {
      *
      * 时间复杂度：O(n)，因为我们遍历整个输入树一次，所以总的运行时间为 O(n)，其中 n 是树中结点的总数。
      * 空间复杂度：搜索队列需要额外的空间。在最糟糕情况下，我们不得不向队列中插入 O(n) 个结点。因此，空间复杂度为 O(n)。
-     *
-     * 作者：LeetCode
-     * 链接：https://leetcode-cn.com/problems/symmetric-tree/solution/dui-cheng-er-cha-shu-by-leetcode/
-     * 来源：力扣（LeetCode）
-     * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
      */
     public static boolean isSymmetricIteration(TreeNode root) {
         if (root == null || (root.left == null && root.right == null)) {
