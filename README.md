@@ -49,3 +49,4 @@
 18 | 226|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/InvertBinaryTree.java"> 226. 翻转二叉树</a> | 2020年4月7日 | 100.00% | 5.39%
 19 | 572|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/SubtreeOfAnotherTree.java"> 572. 另一个树的子树</a> | 2020年4月8日 | 95.56% | 62.63%
 32 | 617|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/MergeTwoBinaryTrees.java"> 617. 合并二叉树</a> | 2020年5月8日 | 64.65% | 94.12%
+33 | 872|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/tree/LeafSimilarTrees.java"> 872. 叶子相似的树</a> | 2020年5月11日 | 6.21% | 33.33%
