@@ -26,6 +26,7 @@
 7 | 53|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/MaximumSubarray.java"> 53. 最大字序和</a> | 2020年3月9日 | 98.4% | 9.13%
 21 | 58|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/LengthOfLastWord.java"> 58. 最后一个单词的长度</a> | 2020年4月10日 | 100.00% | 5.21%
 27 | 66|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/PlusOne.java"> 66. 加一</a> | 2020年4月27日 | 100.00% | 5.63%
+34 | 69|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/Sqrtx.java"> 69. x 的平方根</a> | 2020年5月12日 | 63.44% | 5.55%
 8 | 70|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/ClimbingStairs.java"> 70. 爬楼梯</a> | 2020年3月10日 | 100% | 5.09%
 9 | 83|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/list/RemoveDuplicatesFromSortedList.java"> 83. 删除排序链表中的重复元素</a> | 2020年3月11日 | 94.21% | 5.14%
 10 | 88|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/MergeSortedArray.java"> 88. 合并两个有序数组</a> | 2020年3月8日 | 29.93% | 5.01%
