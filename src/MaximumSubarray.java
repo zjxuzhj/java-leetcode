@@ -24,17 +24,9 @@ public class MaximumSubarray {
      * 如果 sum <= 0，则说明 sum 对结果无增益效果，需要舍弃，则 sum 直接更新为当前遍历数字
      * 每次比较 sum 和 ans的大小，将最大值置为ans，遍历结束返回结果
      * 时间复杂度：O(n)
-     * <p>
+     *
      * 如果前面的数都为负数则直接舍弃。
      * 如果前面有负有正，需要总体为正。
-     * <p>
-     * 作者：guanpengchn
-     * 链接：https://leetcode-cn.com/problems/maximum-subarray/solution/hua-jie-suan-fa-53-zui-da-zi-xu-he-by-guanpengchn/
-     * 来源：力扣（LeetCode）
-     * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-     *
-     * @param nums
-     * @return
      */
     public static int maxSubArray(int[] nums) {
         int ans = nums[0];
