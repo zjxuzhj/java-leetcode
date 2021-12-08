@@ -62,3 +62,4 @@
 44 | 168|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/ExcelSheetColumnTitle.java"> 168. Excel表列名称</a> | 2020/6/15 | 7.19% | 14.29%
 45 | 171|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/ExcelSheetColumnNumber.java"> 171. Excel表列序号</a> | 2020/6/16 | 100.00% | 5.55%
 46 | 206|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/list/ReverseLinkedList.java"> 206. 反转链表</a> | 2020/6/23 | 100.00% | 5.06%
+47 | 1816|<a href="https://github.com/zjxuzhj/java-leetcode/blob/master/src/TruncateSentence.java"> 1816. 截断句子</a> | 2021/12/8 | 54% | 35%
